@@ -19,6 +19,21 @@ header {
 
 }
 
+
+.nav-bar {
+    transition: all 0.2s;
+}
+
+.nav-bar:hover {
+    background-color: #000000 ;
+    font-family: 'Jost', sans-serif;
+    color: #fff8f0;
+    padding: 5px;
+    border-radius: 2px;
+    
+    
+}
+
 .item1 {
 
     grid-area: navegador;
