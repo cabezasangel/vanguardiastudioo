@@ -9,6 +9,7 @@
 /* index.html */
 * {
     box-sizing:border-box;
+    font-family: 'Jost', sans-serif;
 }
 
 a {
