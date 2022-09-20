@@ -5,6 +5,10 @@
     padding: 10px;
 }
 
+.bi {
+    font-size: 30px;
+}
+
 
 /* index.html */
 * {
@@ -17,7 +21,7 @@ a {
     color: #000000;
 }
 
-header {
+/* header {
     display: grid;
     grid-template-rows: 1fr 30px;
     grid-template-columns: 1fr 1fr;
@@ -40,7 +44,7 @@ header {
     border-radius: 2px;
     
     
-}
+} */
 
 .item1 {
 
@@ -174,7 +178,7 @@ main {
     
 }
 
-footer {
+/* footer {
     display: flex;
     flex-direction: row;
     background-color: #212529;
@@ -205,7 +209,7 @@ footer {
 
 .footer-list2 a {
     color: white;
-}
+} */
 
 /* contacto.html*/
 
@@ -287,7 +291,7 @@ footer {
     flex-direction: column;
     align-items:center;
     background-color: #a9a9a956;
-    margin-bottom: 50px;
+    margin-bottom: px;
     
 
 }
@@ -317,7 +321,7 @@ footer {
 .info-parrafo {
     margin-left: 60px;
     margin-right: 60px;
-    padding: 100px;
+    padding: 10px;
 
 }
 
@@ -410,3 +414,40 @@ footer {
     font-size: 30px;
     margin-bottom: 30px;
 }
+
+
+
+/* mediaquery */
+
+@media (max-width: 576px)  {
+
+    .card-title {
+        font-size: 20px;
+    }
+
+    .card-text {
+        font-size: 15px;
+
+    }   
+
+
+    .main-conoce {
+    
+    }
+}
+
+
+
+
+
+
+    
+
+
+    
+ 
+
+
+
+
+

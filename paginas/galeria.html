@@ -10,7 +10,9 @@
     <link rel="stylesheet" href="../styles/styles.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="shortcut icon " href="../imagenes/camera (1).png">    <title>Galeria</title>
+    <link rel="shortcut icon " href="../imagenes/camera (1).png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    
 </head>
 
 <body>
@@ -18,48 +20,38 @@
 
     <nav class="navbar navbar-expand-lg text-light bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand text-light" href="../index.html"><img src="../imagenes/logo2.png" alt="logo"></a>
+          <a class="navbar-brand text-light" href="#"><img src="../imagenes/logo2.png" alt="logo" width="250px"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active text-light" aria-current="page" href="../index.html">INICIO</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light" href="../paginas/galeria.html">GALERIA</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light" href="../paginas/nosotros.html">NOSOTROS</a>
-              </li>
-              <li class="nav-item dropdown text-light">
-                <a class="nav-link dropdown-toggle text-light" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  CURSOS
-                </a>
-                <ul class="dropdown-menu text-light">
-                  <li><a class="dropdown-item " href="../paginas/cursos.html">Actuacion</a></li>
-                  <li><a class="dropdown-item" href="../paginas/cursos.html">Teatro</a></li>
-                  <li><a class="dropdown-item" href="../paginas/cursos.html">Danzaterapia</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light" href="../paginas/contacto.html">CONTACTO</a>
-              </li>
-            
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" aria-label="Search">
-              <button class="btn text-light" type="submit">Buscar</button>
-            </form>
-          </div>
+          <div class="navbar" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="../index.html" class="btn btn-dark" role="button">INICIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="../paginas/galeria.html" class="btn btn-dark" role="button">GALERIA</a>
+                  </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="../paginas/nosotros.html" class="btn btn-dark" role="button" >NOSOTROS</a>
+                  </li>
+                  <li class="nav-item dropdown text-light">
+                    <a class="btn btn-dark" href="./cursos.html" role="button">CURSOS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="../paginas/contacto.html" class="btn btn-dark" role="button">CONTACTO</a>
+                  </li>
+          
+         </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
 
  
       <!-- main -->
-
-  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+ <main>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -94,35 +86,53 @@
       <span class="visually-hidden">Next</span>
     </button>
    </div>
+ </main>
+  
 
-    <footer>
-        <div class="footer-logos">
-            <a href="https://www.youtube.com/">
-                <img src="../imagenes/youcolor.png" alt="logo youtube" height="40px" width="40px">
-            </a>   
-            <a href="https://www.instagram.com/">
-                <img src="../imagenes/instacolor.png" alt="logo instagram"height="40px" width="40px" >
-            </a>
-            <a href="https://www.facebook.com/">
-                <img src="../imagenes/facecolor.png" alt="logo facebook" height="40px" width="40px">
-            </a>
-        </div>   
+   <footer class="bg-dark text-center text-white">
+    <div class="container p-4 pb-0">
+      <section class="mb-4">
+        
+      
+        
+        <a class="btn btn-dark btn-floating m-1" href="https://www.youtube.com/" role="button"
+          ><i class="bi bi-youtube"></i></i
+        ></a>
+  
+        
+        <a class="btn btn-dark btn-floating m-1" href="https://www.facebook.com/" role="button"
+          ><i class="bi bi-facebook"></i></i
+        ></a>
+  
+        
+        <a class="btn btn-dark btn-floating m-1" href="https://www.instagram.com/" role="button"
+        ><i class="bi bi-instagram"></i></i
+        ></a>
+  
+        
+        <a class="btn btn-dark btn-floating m-1" href="https://www.whatsapp.com/" role="button"
+          ><i class="bi bi-whatsapp"></i></i
+        ></a>
+  
+    
+      </section>
+      
+    </div>
+    
+  
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-white" >vanguardiastudio</a>
+      <a class="text-white">/ Av. Santa Fe 2090, Buenos Aires</a>
+    </div>
+  
+   
 
-        <div class="footer-list">
-            <span>vanguardiastudio@gmail</span>
-            <span>(011) 47456321/42226913</span>
-            <span>155632789</span>
-            <span>Av. Cabildo 5478, Buenos Aires, Argentina</span>
-            <span>©VanguardiaStudio </span>
-        </div> 
+    </div>
 
-        <div class="footer-list2">
-            <a href="#">Terminos y condiciones</a>
-            <a href="#">Politicas legales</a>
-            <a href="#">Politica de cookies</a>
-            <a href="#">Sobre nosotros</a>
-        </div>
-    </footer>
+
+    
+  </footer>
 
    <!-- JavaScript Bundle with Popper -->
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script> 
