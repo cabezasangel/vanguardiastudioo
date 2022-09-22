@@ -1,0 +1,55 @@
+
+header {
+    display: grid;
+    grid-template-rows: 1fr 30px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "logo icono"
+    "navegador navegador";
+    .nav-bar {
+        transition: all 0.5s;
+        .nav-bar:hover {
+            background-color: #a43737 ;
+            font-family: 'Jost', sans-serif;
+            color: #fff8f0;
+            padding: 5px;
+            border-radius: 2px;
+            .item1 {
+                grid-area: navegador;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                list-style-type: none;
+                .item2 {
+                    background-color: $bgheader;
+                    grid-area: logo;
+                    .item2 img {
+                        padding-left: 80px;
+                        .item3 {
+                            background-color:#000000;
+                            grid-area: icono;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            .item3 a {
+                                padding: 5px;
+                            }
+
+                        }
+
+                    }
+
+                }
+
+                
+            
+                
+            }
+
+
+        }
+
+    }
+    
+
+}
