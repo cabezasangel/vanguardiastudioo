@@ -143,6 +143,11 @@ header {
   padding: 5px;
 }
 
+.body-index {
+  background-image: url(../imagenes/woman.jpg);
+  width: 100vh;
+}
+
 body {
   font-family: "Jost", sans-serif;
   margin: 0px;

@@ -7,9 +7,9 @@ header {
     "logo icono"
     "navegador navegador";
     .nav-bar {
-        transition: all 0.5s;
+        transition: map-get($transitions, transitionNav);
         .nav-bar:hover {
-            background-color: #a43737 ;
+            background-color: map-get($colores, colorbutton ) ;
             font-family: 'Jost', sans-serif;
             color: #fff8f0;
             padding: 5px;
@@ -26,7 +26,7 @@ header {
                     .item2 img {
                         padding-left: 80px;
                         .item3 {
-                            background-color:#000000;
+                            background-color:map-get($colores, colorfondo) ;
                             grid-area: icono;
                             display: flex;
                             align-items: center;
