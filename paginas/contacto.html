@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;900&display=swap" rel="stylesheet">    
-    <link rel="stylesheet" href="../styles/styles.css">
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="shortcut icon " href="../imagenes/camera (1).png">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <title>Contacto</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;900&display=swap" rel="stylesheet">
+  
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="../styles/styles.css"><link rel="shortcut icon " href="../imagenes/camera (1).png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <title>Contacto</title>
 
 </head>
+
 <body>
   <nav class="navbar navbar-expand-lg text-light bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand text-light" href="#"><img src="../imagenes/logo2.png" alt="logo" width="250px"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="navbar" id="navbarSupportedContent">
@@ -29,10 +33,10 @@
           </li>
           <li class="nav-item">
             <a href="../paginas/galeria.html" class="btn btn-dark" role="button">GALERIA</a>
-          </a>
+            </a>
           </li>
           <li class="nav-item">
-            <a href="./nosotros.html" class="btn btn-dark" role="button" >NOSOTROS</a>
+            <a href="./nosotros.html" class="btn btn-dark" role="button">NOSOTROS</a>
           </li>
           <li class="nav-item dropdown text-light">
             <a class="btn btn-dark" href="../paginas/cursos.html" role="button">CURSOS</a>
@@ -40,119 +44,103 @@
           <li class="nav-item">
             <a href="../paginas/contacto.html" class="btn btn-dark" role="button">CONTACTO</a>
           </li>
-      
-     </ul>
+
+        </ul>
+      </div>
     </div>
-  </div>
   </nav>
 
-    <main class="main-contacto">
-             <div class="main-contenido container">
-                <p class="titulo-contacto">COMUNICATE CON NOSOTROS</p>
-                <span class="span-contacto">Si te interesan nuestros cursos completa el formulario y recibiras mas informacion.</span> 
-             </div>
+  <main class="main-contacto">
+    <div class="main-contenido container-fluid">
+      <p class="titulo-contacto text-center">COMUNICATE CON NOSOTROS</p>
+    </div>
+    <div class="container-fluid form-contacto">
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Nombre</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Direccion</label>
+          <input type="text" class="form-control" id="inputAddress">
+        </div>
 
-             <div class="container">
-              <form class="row g-3">
-                <div class="col-md-6">
-                  <label for="inputEmail4" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="inputEmail4">
-                </div>
-                <div class="col-md-6">
-                  <label for="inputPassword4" class="form-label">Nombre</label>
-                  <input type="password" class="form-control" id="inputPassword4">
-                </div>
-                <div class="col-12">
-                  <label for="inputAddress" class="form-label">Direccion</label>
-                  <input type="text" class="form-control" id="inputAddress">
-                </div>
-                
-                <div class="col-md-6">
-                  <label for="inputCity" class="form-label">Ciudad</label>
-                  <input type="text" class="form-control" id="inputCity">
-                </div>
-              
-                <div class="col-md-6">
-                  <label for="inputZip" class="form-label">Codigo postal</label>
-                  <input type="text" class="form-control" id="inputZip">
-                </div>
-                <div class="col-12">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck">
-                    <label class="form-check-label" for="gridCheck">
-                      Deseo recibir mas informacion
-                    </label>
-                  </div>
-                </div>
-                <div class="d-flex justify-content-center">
-                  <button type="submit" class="btn btn-primary">ENVIAR</button>
-                </div>
-              </form>
-             </div>
-                
-             
-             
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">Ciudad</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
 
-             <!-- <form class="formulario">
-                <legend class="titulo-formulario">COMPLETAR FORMULARIO</legend>
-                <input class="controls" type="text" placeholder="Ingresa tu nombre y apellido">
-                <input class="controls" type="email" placeholder="Correo electronico">
-                <select class="controls">
-                      <option>Elegi tu actividad</option>
-                      <option>Actuacion</option>
-                      <option>Teatro</option>
-                      <option>Danzaterapia</option>
-                </select>
-                <label class="controls"for="comentarios"></label>
-                <textarea class="textarea-form" placeholder="Mensaje"></textarea>
-                <input class="boton-enviar" type="submit" value="Enviar">
-             </form> -->
-    </main>
-    <footer class="bg-dark text-center text-white">
-      <div class="container p-4 pb-0">
-        <section class="mb-4">
-          
-        
-          
-          <a class="btn btn-dark btn-floating m-1" href="https://www.youtube.com/" role="button"
-            ><i class="bi bi-youtube"></i></i
-          ></a>
-    
-          
-          <a class="btn btn-dark btn-floating m-1" href="https://www.facebook.com/" role="button"
-            ><i class="bi bi-facebook"></i></i
-          ></a>
-    
-          
-          <a class="btn btn-dark btn-floating m-1" href="https://www.instagram.com/" role="button"
-          ><i class="bi bi-instagram"></i></i
-          ></a>
-    
-          
-          <a class="btn btn-dark btn-floating m-1" href="https://www.whatsapp.com/" role="button"
-            ><i class="bi bi-whatsapp"></i></i
-          ></a>
-    
-      
-        </section>
-        
-      </div>
-      
-    
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        © 2022 Copyright:
-        <a class="text-white" >vanguardiastudio</a>
-        <a class="text-white">/ Av. Santa Fe 2090, Buenos Aires</a>
-      </div>
-    
-     
-
-      </div>
+        <div class="col-md-6">
+          <label for="inputZip" class="form-label">Codigo postal</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Deseo recibir mas informacion
+            </label>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <button type="submit" class="btn btn-primary">ENVIAR</button>
+        </div>
+      </form>
+    </div>
 
 
-      
-    </footer>
+
+
+
+  </main>
+  <footer class="bg-dark text-center text-white">
+    <div class="container p-4 pb-0">
+      <section class="mb-4">
+
+
+
+        <a class="btn btn-dark btn-floating m-1" href="https://www.youtube.com/" role="button"><i
+            class="bi bi-youtube"></i></i></a>
+
+
+        <a class="btn btn-dark btn-floating m-1" href="https://www.facebook.com/" role="button"><i
+            class="bi bi-facebook"></i></i></a>
+
+
+        <a class="btn btn-dark btn-floating m-1" href="https://www.instagram.com/" role="button"><i
+            class="bi bi-instagram"></i></i></a>
+
+
+        <a class="btn btn-dark btn-floating m-1" href="https://www.whatsapp.com/" role="button"><i
+            class="bi bi-whatsapp"></i></i></a>
+
+
+      </section>
+
+    </div>
+
+
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-white">vanguardiastudio</a>
+      <a class="text-white">/ Av. Santa Fe 2090, Buenos Aires</a>
+    </div>
+
+
+
+    </div>
+
+
+
+  </footer>
   <!-- JavaScript Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

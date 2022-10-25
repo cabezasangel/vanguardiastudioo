@@ -1,0 +1,71 @@
+@import "./partials/index";
+@import "./partials/mediaquery";
+@import "./partials/footer"
+
+
+
+
+.formulario-cont {
+    padding: 10px;
+}
+
+.bi {
+    font-size: 30px;
+
+}
+
+
+/* index.html */
+* {
+    box-sizing:border-box;
+    font-family: 'Jost', sans-serif;
+    a {
+        text-decoration: none;
+        color: #000000;
+        nav {
+            background-color:#808080;
+            .nav-ul{
+                display: flex;
+                justify-content: end;
+            }
+            h1 {
+                display: flex;
+                justify-content: center;
+                .boton-bienvenida {
+                    padding: 10px;
+                    .btn {
+                        background-color: brown;
+                    }
+                    
+                }
+            }
+            
+        }
+        
+
+    }
+
+}
+
+
+
+/* mediaquery */
+
+@media (max-width: 576px)  {
+
+    .card-title {
+        font-size: 20px;
+    }
+    .card-text {
+        font-size: 15px;
+
+    }   
+
+    
+
+}
+
+
+.bi-youtube {
+    color: red($color: #ff0101);
+}
